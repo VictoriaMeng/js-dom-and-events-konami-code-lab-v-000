@@ -11,11 +11,13 @@ function init(e) {
       alert("Hurray!");
 
       index = 0;
-    }
+    };
   } else {
     index = 0;
-  }
-}
+  };
+};
 
 const body = document.getElementbyId('body');
-body.addEventListener();
+body.addEventListener('keydown', init(e) {
+  console.log(e.which);
+})
