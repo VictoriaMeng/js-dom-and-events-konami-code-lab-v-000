@@ -5,6 +5,5 @@ function init(code) {
 
 }
 
-const body = document.addEventListener();
-
-
+const body = document.getElementbyId('body');
+body.addEventListener();
